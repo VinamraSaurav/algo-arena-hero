@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-[#0F1629] mt-[7rem]">
+    <div className="bg-primary mt-[7rem]">
       <div className="relative max-w-[120rem] min-w-[93rem] h-[42.5rem]">
         <div>
 
@@ -19,7 +19,7 @@ const Hero = () => {
         <Image src='/Ellipse3.svg' alt='Ellipse' height={100} width={24} className="absolute w-[80rem] h-[77.5rem] left-[-12rem] top-[3.9rem] overflow-hidden opacity-30"/>
         </div>
 
-        <div className="absolute h-[30rem] w-[68.0625rem] top-[12rem] left-[-1rem] overflow-hidden rotate-[-1deg] z-1">
+        <div className="absolute h-[30rem] w-[68.0625rem] top-[13rem] left-[-1rem] overflow-hidden rotate-[2deg] z-1">
         <Image src='/Ellipse3.svg' alt='Ellipse' height={100} width={24} className="absolute w-[68.0625rem] h-[56.5rem] left-[-12rem] top-[3.9rem] overflow-hidden opacity-30"/>
         </div>
 
@@ -30,11 +30,8 @@ const Hero = () => {
           <div>
 
             <div
-              className="absolute max-w-[43.75rem] max-h-[41.3125rem] rounded-[43.75rem] z-3 top-[6rem] right-[10rem] min-h-[25rem] min-w-[27rem]"
-              style={{
-                background:
-                  "radial-gradient(50% 50% at 50% 50%, rgba(128, 116, 255, 0.67) 0%, rgba(123, 112, 238, 0.00) 100%)",
-              }}
+              className="absolute max-w-[43.75rem] max-h-[41.3125rem] rounded-[43.75rem] z-3 top-[6rem] right-[10rem] min-h-[25rem] min-w-[27rem] bg-gradient-hero-img"
+              
             ></div>
             
               <Image
