@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
 
 
 body
 {
     max-width: 120rem;
+    /* margin:0 auto; */
+    background: var(--tw-colors-primary);
 }
