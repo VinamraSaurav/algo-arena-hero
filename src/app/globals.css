@@ -1,14 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/the-bold-font');
+@import url("https://fonts.cdnfonts.com/css/the-bold-font");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-body
-{
-    max-width: 120rem;
-    /* margin:0 auto; */
-    background: var(--tw-colors-primary);
-    margin:0 auto;
-    /* background-color: #0F1629; */
+body {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #0f1629;
 }

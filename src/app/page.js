@@ -1,12 +1,12 @@
-import Navbar from "../components/Navbar";
-import "./globals.css";import Hero from "@/component/Hero";
-
+import Navbar from "../component/Navbar";
+import "./globals.css";
+import Hero from "@/component/Hero";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Hero/>
+      <Hero />
     </div>
   );
 }
